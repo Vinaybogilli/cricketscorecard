@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+    background-color: black;   
+}
+
+#BackGround{
+        
+        background-color:black;
+        height:680px;
+        width: 400px;
+        background-image: url("https://i.pinimg.com/474x/38/7b/29/387b29cd030c482482544be30a0020f8.jpg");
+        background-repeat: no-repeat;
+        background-position: cover;
+        
+        
+
+        }
+
+
+
+h1{
+    
+    
+    color:white;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+
+
+#display{
+    
+    width: 250px;
+    
+    margin-left: 80px;
+    
+    margin-bottom: 20px;
+    font-size: 25px;
+    color:black;
+    background-color: black;
+    background:inherit;
+    display: center;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+
+#wicket{
+    display:inline-block;
+    height:40px;
+    width:70px;
+    background-color: black;
+    margin-right: 20px;
+    
+    
+    font-size: 30px;
+    font-style: italic;
+    color:white;
+    
+}
+
+#over{
+    display: inline;
+    height: 40px;
+    width: 70px;
+    
+    font-size: 30px;
+    background-color: black;
+    margin-right: 10px;
+    color:white;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#topend{
+    
+    color:white;
+    margin-left: 10px;
+    display: inline;
+
+}
+
+
+
+#keys{
+    
+    display:center;
+    justify-content: center;
+    align-items: center;
+    margin-left:60px;
+    
+    
+}
+#btn1{
+    
+    height: 50px;
+    width: 80px;
+    background: inherit;
+    margin-top:10px;
+    margin-right:28px;
+    color:black;
+    display:inline-block;
+    background-color: cornsilk;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
+
+#display2{
+    height: 30px;
+    width: 144px;
+    margin-top:50px;
+    margin-left:35%;
+    
+    font-size: 30px;
+    color:black;
+    
+    display: center;
+    font-style: italic;
+    overflow: visible;
+    
+}
+
+#wick{
+    
+    display:inline-flex;
+    gap: 30px;
+    color:red;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: -30px;
+}
+
+#wick-1{
+    
+    display:inline-flex;
+    gap:50%;
+    color:deeppink;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: -30px;
+}
+
+#firstpagewick{
+    display:inline-flex;
+    color: white;
+    display:center;
+    
+}
+
+
+#firstpagewick2{
+    display:inline-flex;
+    color: white;
+    display:center;
+    
+}
+
+#back{
+    display:grid;
+    background-color:lightgreen;
+}

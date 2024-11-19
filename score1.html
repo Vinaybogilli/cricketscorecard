@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Score card</title>
+    <link rel="stylesheet" href="score1.css">
+</head>
+<body >
+    
+    <div id=BackGround>
+        <h1 style="color:white;margin-top: 30px;">Cricket scorecard</h1> 
+           <div id="wick"> 
+                <p id="vinayw"></p>     
+                <p id="vinayo"></p>
+           </div>
+           <div id="wick-1"> 
+                    <p id="vinayw1"></p>      
+                    <p id="vinayt"></p>
+           </div>
+           
+        <div>
+               <h2 id="display">
+                score:  &#160&#160&#160&#160&#160&#160 overs:
+               </h2>       
+        </div>
+        
+        <div id="keys">
+            
+            <button id="btn1" onclick="NB()" style="background-color: orange;color:black"> NB </button>
+            <button id="btn1" onclick="appendtodisplayWide()" style="background-color: orange;color:black"> Wide </button>
+            <button id="btn1" onclick="prev()" style="background-color:orange;color: black;">Prev</button>  
+            <button id="btn1" onclick="appendtodisplaywicket()" style="background-color:red;color: black;">W</button>
+            <button  id="btn1" onclick="runout()" style="background-color:orangered;">runout</button>
+            <button  id="btn1" onclick="cleardisplay()" style="background-color: red;">clear</button>
+            <button id="btn1" onclick="appendtodisplay0()">0</button>
+            <button id="btn1" onclick="appendtodisplay1()">1</button>
+            <button id="btn1" onclick="appendtodisplay2()">2</button>
+            <button id="btn1" onclick="appendtodisplay3()">3</button>
+            <button id="btn1" onclick="appendtodisplay4()">4</button>
+            <button id="btn1" onclick="appendtodisplay6()">6</button>
+            
+            
+        </div>
+
+        <div>
+            <input id="display2" readonly>
+        </div>
+            
+        
+    </div>
+    
+    <script src="score1.js"></script>
+</body>
+</html>
